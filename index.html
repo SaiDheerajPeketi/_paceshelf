@@ -35,7 +35,7 @@
       <ul>
         <li><strong>Google Play</strong> processes installation, licensing, purchases, payments, refunds, and subscription management under Google's terms.</li>
         <li><strong>RevenueCat</strong> processes an anonymous app-user identifier, product and entitlement status, purchase history, and limited device/app diagnostics needed to provide and troubleshoot billing. PaceShelf does not send document content or titles to RevenueCat.</li>
-        <li><strong>Firebase Analytics and Crashlytics</strong> process privacy-scoped app events, app-instance and device/app information, crash traces, and diagnostics so we can understand reliability. PaceShelf does not attach document names, document text, OCR output, bookmarks, or audio content to these events.</li>
+        <li><strong>Firebase Analytics and Crashlytics</strong> process privacy-scoped app events, app-instance and device/app information, masked-network-derived coarse country or region, crash traces, and diagnostics so we can understand reliability. PaceShelf does not attach document names, document text, OCR output, bookmarks, or audio content to these events.</li>
         <li><strong>Google ML Kit</strong> performs text recognition on the device. Google's SDK may process limited configuration and diagnostic information as described in Google's ML Kit and Play data-disclosure documentation; PaceShelf does not upload selected document pages or recognized text to a Black and Blue server.</li>
       </ul>
 
@@ -58,7 +58,7 @@
       <ul>
         <li>Files and document content are user-selected and processed locally; they are not sent to Black and Blue.</li>
         <li>Purchase history is collected by RevenueCat and Google Play to provide purchases, subscriptions, entitlement verification, fraud prevention, and support.</li>
-        <li>App interactions, app-instance information, crash logs, and diagnostics are collected by Firebase for analytics, reliability, and security.</li>
+        <li>App interactions, app-instance and device/app information, masked-network-derived coarse country or region, crash logs, and diagnostics are collected by Firebase for analytics, reliability, and security.</li>
         <li>Data in transit to service providers is encrypted.</li>
         <li>There are no ads, advertising-ID collection, or sale of user data.</li>
       </ul>
