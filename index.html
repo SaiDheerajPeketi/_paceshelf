@@ -33,7 +33,7 @@
 
       <h3>Information processed by service providers</h3>
       <ul>
-        <li><strong>Google Play</strong> processes installation, licensing, purchases, payments, refunds, and subscription management under Google's terms.</li>
+        <li><strong>Google Play</strong> processes installation, licensing, purchases, optional one-time tips, payments, refunds, and subscription management under Google's terms.</li>
         <li><strong>RevenueCat</strong> processes an anonymous app-user identifier, product and entitlement status, purchase history, and limited device/app diagnostics needed to provide and troubleshoot billing. PaceShelf does not send document content or titles to RevenueCat.</li>
         <li><strong>Firebase Analytics and Crashlytics</strong> process privacy-scoped app events, app-instance and device/app information, masked-network-derived coarse country or region, crash traces, and diagnostics so we can understand reliability. PaceShelf does not attach document names, document text, OCR output, bookmarks, or audio content to these events.</li>
         <li><strong>Google ML Kit</strong> performs text recognition on the device. Google's SDK may process limited configuration and diagnostic information as described in Google's ML Kit and Play data-disclosure documentation; PaceShelf does not upload selected document pages or recognized text to a Black and Blue server.</li>
@@ -57,7 +57,7 @@
       <p>The final Play Console form must be checked against the exact release build. For the current candidate:</p>
       <ul>
         <li>Files and document content are user-selected and processed locally; they are not sent to Black and Blue.</li>
-        <li>Purchase history is collected by RevenueCat and Google Play to provide purchases, subscriptions, entitlement verification, fraud prevention, and support.</li>
+        <li>Purchase history is collected by RevenueCat and Google Play to provide purchases, subscriptions, optional tips, entitlement verification, fraud prevention, and support. Tips do not unlock content or change app access.</li>
         <li>App interactions, app-instance and device/app information, masked-network-derived coarse country or region, crash logs, and diagnostics are collected by Firebase for analytics, reliability, and security.</li>
         <li>Data in transit to service providers is encrypted.</li>
         <li>There are no ads, advertising-ID collection, or sale of user data.</li>
@@ -86,6 +86,7 @@
         <li>Do not use the app to infringe rights, bypass protection, distribute unauthorized copies, or violate law.</li>
         <li>Subscriptions renew automatically unless canceled in Google Play before renewal. Available products, localized prices, trials, taxes, and billing periods are shown by Google Play before purchase.</li>
         <li>Google Play controls billing, cancellation, and applicable refund handling. Restoring purchases requires the relevant Google Play account and network access.</li>
+        <li>An optional repeatable tip may be offered to support the student developer. Google Play shows its localized price and terms before purchase; it grants no entitlement or feature.</li>
         <li>PaceShelf depends on device text-to-speech, storage, media, and recognition capabilities. Output quality and availability vary by device and source material.</li>
         <li>The service is provided without a guarantee that every file will import, every recognition result will be accurate, or generated audio will be error-free. Nothing here excludes rights that cannot legally be excluded.</li>
       </ul>
